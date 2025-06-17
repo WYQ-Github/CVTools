@@ -28,14 +28,14 @@ def Imread(path):
     return image
 # 定义输入和输出文件夹
 
-input_dir = r'D:\22222'
-output_dir = r'D:\1111'
+input_dir = r'F:\Image\徐州轮对\20250617095521-25km'
+output_dir = r'F:\Image\output2'       # 英文路径
 
 # --- 新增处理选项配置 ---
 # PROCESSING_OPTION = 1: 将区域外的像素点置为0 (黑色) - 原始行为
 # PROCESSING_OPTION = 2: 将区域内的像素点置为255 (白色)，区域外保持不变
 # PROCESSING_OPTION = 3: 将区域内的像素点置为255 (白色)，区域外的像素点置为0 (黑色) - 新增行为
-PROCESSING_OPTION = 1  # 在这里修改选项：1, 2 或 3
+PROCESSING_OPTION = 3  # 在这里修改选项：1, 2 或 3
 # --- 结束配置 ---
 
 # 创建输出文件夹
